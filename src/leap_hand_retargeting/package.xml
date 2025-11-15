@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>leap_hand_retargeting</name>
+  <version>0.0.1</version>
+  <description>Leap Motion hand keypoint retargeting using URDF and Pinocchio.</description>
+  <maintainer email="KyaKayKya@gmail.com">Kay</maintainer>
+  <license>MIT</license>
+
+  <!-- Build type -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- Dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>pinocchio</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <depend>visualization_msgs</depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
+  <!-- Testing (optional) -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
