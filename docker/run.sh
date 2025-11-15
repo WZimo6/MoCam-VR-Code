@@ -11,7 +11,7 @@ docker run -dit \
   --name mocam_container \
   --privileged \
   -v /dev:/dev \
-  -v "$(pwd)/src:/root/ros2_ws/src" \
+  -v "$(pwd):/root/ros2_ws" \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   -e DISPLAY="$DISPLAY" \
   -e QT_X11_NO_MITSHM=1 \
