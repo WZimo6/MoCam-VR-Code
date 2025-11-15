@@ -129,6 +129,16 @@ ros2 launch rviz_visualizer visualize_leap_right.launch.py
 ros2 launch rviz_visualizer visualize_leap_left.launch.py
 ```
 
+> ⚠️ **Important (Docker users): Enable X11 access after every container restart**
+>
+> If you are running RViz2 inside a Docker container, you **must run the following command on the host machine** each time you restart the container, otherwise RViz2 will not display:
+>
+> ```bash
+> xhost +si:localuser:root
+> ```
+>
+> This grants X11 permission for the root user inside the container to display GUI windows (RViz2).
+
 ---
 
 # **📦 System Modules**
