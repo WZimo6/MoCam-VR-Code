@@ -39,7 +39,7 @@ This guide walks you through running the entire MoCam-VR system using Docker and
 ## **1️⃣ Clone the repository**
 
 ```bash
-git clone https://github.com/WZimo6/MoCam_VR_Code.git
+git clone https://github.com/WZimo6/MoCam-VR-Code.git
 ```
 
 ---
@@ -59,7 +59,7 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ### Build the image
 
 ```bash
-cd MoCam_VR_Code
+cd MoCam-VR-Code
 ./docker/build.sh
 ```
 
@@ -67,7 +67,7 @@ cd MoCam_VR_Code
 
 ## **3️⃣ Launch the development container**
 
-> **❗ Must be executed inside `MoCam_VR_Code/`**
+> **❗ Must be executed inside `MoCam-VR-Code/`**
 
 ```bash
 ./docker/run.sh
