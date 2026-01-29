@@ -156,5 +156,12 @@ ros2 launch rviz_visualizer visualize_leap_left.launch.py
 If our work is helpful for your research, please cite:
 
 ```bibtex
-
+@inproceedings{wang2025mocam,
+  title={MoCam-VR: An Occlusion-Resilient Low-Cost Dexterous Hand-arm Teleoperation System for Imitation Learning},
+  author={Wang, Zimo and Jiang, Xinran and Shao, Qi and Zhou, Zichen and Li, Haoyang and Chen, Guangyan and Yang, Yi and Yue, Yufeng},
+  booktitle={2025 IEEE International Conference on Unmanned Systems (ICUS)},
+  pages={919--926},
+  year={2025},
+  organization={IEEE}
+}
 ```
